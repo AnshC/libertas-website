@@ -225,8 +225,8 @@ nav{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease;
+        transition: opacity 1s;
+        padding:50px;
     }
 
     .burger{

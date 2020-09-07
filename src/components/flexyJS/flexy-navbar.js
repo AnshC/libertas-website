@@ -16,15 +16,14 @@ export function slide(){
 
 function close(){
     state = 0;
-    document.getElementById("nav-links").style.transform = 'translateX(100%)';
     document.body.style.overflowY = "scroll";
-    document.getElementById("nav-links").style.display = 'hidden';
+    document.getElementById("nav-links").style.opacity = 0;
 }
 
 function open(){
     state = 1;
-    document.getElementById("nav-links").style.transform = 'translateX(0%)';
     document.body.style.overflow = "hidden";    
+    document.getElementById("nav-links").style.opacity = 1;
 }
 
 export function clickToggle(){
