@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from'react-router-dom';
 
 import {Footer} from './footer';
 
@@ -44,7 +45,7 @@ function HomePage(){
                     </div>
                     <div className="blog-container align-center">
                         <div className="blog-overlay">
-                            <h2 className="blog-h3 m-y7 p3">Want to write a blog related to the UNHR for Libertas? Fill up <a href="/blog" className="blog-link">this form</a> to write and submit a blog now!</h2>
+                            <h2 className="blog-h3 m-y7 p3">Want to write a blog related to the UNHR for Libertas? Fill up <Link to="/blog" className="blog-link">this form</Link> to write and submit a blog now!</h2>
                         </div>
                     </div>
                     <Footer/>
