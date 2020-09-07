@@ -1,0 +1,96 @@
+.hero-title{
+    font-size: 40px;
+    color:white;
+}
+
+.hero-img{
+    background-image: url('https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fwriting-1209121_1920.jpg?v=1598178786290');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:crimson;
+}
+
+.waw-head{
+    letter-spacing: 2px;
+}
+.wwo-head{
+    letter-spacing: 2px;
+}
+
+.waw-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+.waw-p{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:900px){
+    .waw-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .waw-p{
+        text-align: center;
+    }
+}
+
+.wwo-container{
+    background-color: crimson;
+}
+
+.news-p, .blog-p, .community-p, .wwo-news, .wwo-blogs, .wwo-community{
+    color:white;
+}
+
+.community-png{
+    width: 100px;
+}
+
+.blog-png{
+    width: 100px;
+}
+
+.news-png{
+    width: 100px;
+}
+
+.blog-container{
+    background-attachment: fixed;
+    background-image: url('https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fwriting-336370_1920.jpg?v=1598545262864');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blog-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.blog-link{
+    color:blue;
+    transition: color 0.4s ease;
+}
+
+.blog-link:hover{
+    color:crimson;
+}
+
+.waw-img{
+    max-height: 200px;
+}

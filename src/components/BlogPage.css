@@ -1,0 +1,46 @@
+.google-form-iframe{
+    padding-top:0px;
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+
+.blogpage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-blog{
+    text-decoration: none;
+    background-color: crimson;
+    padding:15px;
+    color:white;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border:1px solid;
+    transition: all 0.5s ease;
+}
+
+.a-blog:hover{
+    color:crimson;
+    background-color: white;
+    border-color: crimson;
+    border:1px solid;
+    transform: rotate(-2deg);
+    font-size: 17px;
+}
+
+.blog-head{
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color:white;
+}
+
+.hero-blog{
+    background-image: url('https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fhuangpu-river-5501210_1920.jpg?v=1598681473112');
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+}
