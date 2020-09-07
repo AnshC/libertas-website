@@ -18,12 +18,14 @@ function close(){
     state = 0;
     document.body.style.overflowY = "scroll";
     document.getElementById("nav-links").style.opacity = 0;
+    document.getElementById("nav-links").style.visibility = 'hidden';
 }
 
 function open(){
     state = 1;
     document.body.style.overflow = "hidden";    
     document.getElementById("nav-links").style.opacity = 1;
+    document.getElementById("nav-links").style.visibility = 'visible';
 }
 
 export function clickToggle(){
