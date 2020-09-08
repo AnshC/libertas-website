@@ -1,6 +1,6 @@
 export function News() {
   const api =
-    "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=united%20nations%20human%20rights&api-key=miAAxwJUDvZwHAj6slk4RnfciGpR53bm";
+    "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=human%20rights&api-key=miAAxwJUDvZwHAj6slk4RnfciGpR53bm";
 
   fetch(api)
     .then((response) => {
