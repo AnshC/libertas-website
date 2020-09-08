@@ -1,8 +1,10 @@
-export function News() {
-  const api =
-    "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=human%20rights&api-key=" + process.env.API_KEY;
+require('dotenv').config();
 
-  fetch(api)
+export async function News() {
+
+const apiKey = process.env.REACT_APP_NEWS;
+
+await fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?q=human%20rights&api-key=' + apiKey)
     .then((response) => {
       return response.json();
     })
