@@ -240,6 +240,11 @@ nav{
     body{
         overflow-y:scroll;
     }
+
+    .nav-links{
+        opacity: 1;
+        visibility: visible;
+    }
 }
 /*----------------- Spacing Styles -------------------*/
 
