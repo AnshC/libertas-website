@@ -6,6 +6,8 @@ import { Footer } from "./footer";
 import "./HomePage.css";
 import "./flexy.ss.css";
 
+import {news, blog} from './JS/link'
+ 
 function HomePage() {
   return (
     <div className="homepage-content">
@@ -53,6 +55,7 @@ function HomePage() {
                 src="https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fnews.png?v=1598541647684"
                 alt="Informative News!"
                 className="news-png m-y2"
+                onClick={news}
               />
               <p className="news-p">
                 We offer news related to the UNHR sourced by the NYT
@@ -64,6 +67,7 @@ function HomePage() {
                 src="https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fblog.png?v=1598541368467"
                 alt="Awesome Blogs!"
                 className="blog-png m-y2"
+                onClick={blog}
               />
               <p className="blog-p">
                 We provide a way to communicate and read about the UNHR
