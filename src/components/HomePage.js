@@ -6,7 +6,7 @@ import { Footer } from "./footer";
 import "./HomePage.css";
 import "./flexy.ss.css";
 
-import {news, blog} from './JS/link'
+import {news, blog, about} from './JS/link'
  
 function HomePage() {
   return (
@@ -17,7 +17,7 @@ function HomePage() {
           style={{ flexDirection: "column" }}
         >
           <p className="hero-title p1">We are Libertas</p>
-          <p className="">A community protecting the UNHR Social Rights</p>
+          <p className="">A community protecting the Human and Social Rights</p>
         </div>
       </div>
       <div className="body-content">
@@ -36,11 +36,11 @@ function HomePage() {
               target="blank"
               style={{ color: "crimson" }}
             >
-              United Nations Human Rights
+              Human Rights
             </a>{" "}
             (UNHR). Our aim is to amplify unheard voices related to the
-            protection of UNHR Social Rights! We provide news and a blogging
-            service to support the UNHR, we ensure that everyone's voice is
+            protection of Human and Social Rights! We provide news and a blogging
+            service to support the Human Rights, we ensure that everyone's voice is
             heard by our blogs. The way we convey is the way you want to convey
             yourself to the world. We are a platform for global citizens to
             voice their concerns regarding Human Rights.
@@ -58,7 +58,7 @@ function HomePage() {
                 onClick={news}
               />
               <p className="news-p">
-                We offer news related to the UNHR sourced by the NYT
+                We offer news related to Human Rights sourced by the NYT
               </p>
             </div>
             <div className="column align-h">
@@ -70,7 +70,7 @@ function HomePage() {
                 onClick={blog}
               />
               <p className="blog-p">
-                We provide a way to communicate and read about the UNHR
+                We provide a way to communicate and read about the Human Rights
               </p>
             </div>
             <div className="column align-h">
@@ -79,6 +79,7 @@ function HomePage() {
                 src="https://cdn.glitch.com/b8424ef6-1a56-4d04-8b84-245761355699%2Fworld.png?v=1598541474985"
                 className="community-png m-y2"
                 alt="A beautiful community!"
+                onClick={about}
               />
               <p className="community-p">
                 We provide as a platform for a safe community
@@ -89,7 +90,7 @@ function HomePage() {
         <div className="blog-container align-center">
           <div className="blog-overlay">
             <h2 className="blog-h3 m-y7 p3">
-              Want to write a blog related to the UNHR for Libertas? Fill up{" "}
+              Want to write a blog related to the Human Rights for Libertas? Fill up{" "}
               <Link to="/blog" className="blog-link">
                 this form
               </Link>{" "}

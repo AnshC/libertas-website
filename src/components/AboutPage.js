@@ -13,10 +13,10 @@ function AboutPage() {
         </h2>
         <p className="para">
           Welcome to Libertas, your number one source for blogs and news related
-          to the UNHR around the globe from different people. We're dedicated to
+          to the Human Rights around the globe from different people. We're dedicated to
           giving you the very best of our blogs, with a focus on the unheard
           voices from all around the world. This is an open source platform
-          where all the people supporting the protection of the United Nations
+          where all the people supporting the protection of the3
           Human Rights can discuss and talk about topics related to the UNHR.
         </p>
         <p className="para">
@@ -39,7 +39,7 @@ function AboutPage() {
         </h2>
         <p className="aim-p">
           "To support and magnify unheard voices related to the protection of
-          the United Nations Human Rights"
+          the Human Rights"
         </p>
       </div>
       <div className="section3">
@@ -53,7 +53,7 @@ function AboutPage() {
               Jodhpur. Ansh C is a part of many student run organisations
               (international and national) which show his interest towards extra
               curricular activities. The organisations Ansh is part of are
-              United Under Arts, Helyx, Guild X and Ama21ng. His main hobbies
+              United Under Arts, Helyx, and Ama21ng. His main hobbies
               include web development and design, and graphic design. You can
               view his personal website{" "}
               <a href="https://anshc.github.io" target="blank">
