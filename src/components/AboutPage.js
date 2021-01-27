@@ -72,7 +72,7 @@ function AboutPage() {
         </div>
         <div className="row">
           <img
-            src="/img/pd.jpg"
+            src="/img/pd2.jpg"
             alt="Pushpendra D"
             className="co-founder-img"
           />
