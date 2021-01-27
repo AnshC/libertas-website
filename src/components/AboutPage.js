@@ -17,7 +17,7 @@ function AboutPage() {
           giving you the very best of our blogs, with a focus on the unheard
           voices from all around the world. This is an open source platform
           where all the people supporting the protection of the
-          Human Rights can discuss and talk about topics related to the Human Rights.
+          Human Rights can discuss and talk about topics related to the Human Rights. Test
         </p>
         <p className="para">
           Co-founded in 2020 by Ansh C and Pushpendra Dewal for an IGCSE Global
