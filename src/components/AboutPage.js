@@ -16,8 +16,8 @@ function AboutPage() {
           to the Human Rights around the globe from different people. We're dedicated to
           giving you the very best of our blogs, with a focus on the unheard
           voices from all around the world. This is an open source platform
-          where all the people supporting the protection of the3
-          Human Rights can discuss and talk about topics related to the UNHR.
+          where all the people supporting the protection of the
+          Human Rights can discuss and talk about topics related to the Human Rights.
         </p>
         <p className="para">
           Co-founded in 2020 by Ansh C and Pushpendra Dewal for an IGCSE Global
