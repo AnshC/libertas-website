@@ -45,7 +45,7 @@ function AboutPage() {
       <div className="section3">
         <h2 className="co-founder-head m-y3 p1">Co-Founders</h2>
         <div className="row">
-          <img src="/img/ansh.png" alt="Ansh C" className="co-founder-img" />
+          <img src="/img/ansh.jpg" alt="Ansh C" className="co-founder-img" />
           <div className="column co-founder-card">
             <h3 className="co-founder">Ansh Chauhan</h3>
             <p className="co-founder-p">
