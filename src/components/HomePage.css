@@ -58,6 +58,8 @@
 
 .community-png{
     width: 100px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
 .blog-png{
@@ -70,8 +72,18 @@
     transform: scale(1.1);
 }
 
+.community-png:hover{
+    transform: scale(1.1);
+}
+
 .news-png{
     width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.news-png:hover{
+    transform: scale(1.1);
 }
 
 .blog-container{
