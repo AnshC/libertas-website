@@ -11,7 +11,7 @@ import {news, blog, about} from './JS/link'
 function HomePage() {
   return (
     <div className="homepage-content">
-      <div className="hero-m-n align-center hero-img">
+      <div className="hero-f-n align-center hero-img">
         <div
           className="hero-overlay align-center"
           style={{ flexDirection: "column" }}
