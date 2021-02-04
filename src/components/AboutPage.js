@@ -12,24 +12,10 @@ function AboutPage() {
           <span id="head-1">About</span> Us!
         </h2>
         <p className="para">
-          Welcome to Libertas, your number one source for blogs and news related
-          to the Human Rights around the globe from different people. We're dedicated to
-          giving you the very best of our blogs, with a focus on the unheard
-          voices from all around the world. This is an open source platform
-          where all the people supporting the protection of the
-          Human Rights can discuss and talk about topics related to the Human Rights.
+          Welcome to Libertas!
         </p>
         <p className="para">
-          Co-founded in 2020 by Ansh C and Pushpendra Dewal for an IGCSE Global
-          Perspectives Group Project. Libertas has come a long way from its
-          beginnings. We now serve people all over the world, and are excited
-          that we're able to turn our passion into our own website.
-        </p>
-        <p className="para">
-          We hope you enjoy our platform as much as we enjoy offering them to
-          you. If you have any questions or comments, please don't hesitate to
-          contact us. If you want to upload a blog please refer to the blog page
-          and upload your thoughts out in a form for the blog!
+          A platform where you can express your views, experience and knowledge related to Human Rights (violations/enforcement) from any corner of the world.
         </p>
         <p className="para">~ Libertas</p>
       </div>
